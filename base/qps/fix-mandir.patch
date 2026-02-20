@@ -1,0 +1,12 @@
+diff -ruN qps-2.12.0/CMakeLists.txt qps-2.12.0-patched/CMakeLists.txt
+--- qps-2.12.0/CMakeLists.txt	2025-11-05 09:45:29.000000000 -0300
++++ qps-2.12.0-patched/CMakeLists.txt	2026-02-17 16:57:07.415117147 -0300
+@@ -54,7 +54,7 @@
+ add_subdirectory(src)
+ 
+ # install the man page
+-install(FILES qps.1 DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}/man/man1")
++install(FILES qps.1 DESTINATION "${PKG}/usr/man/man1")
+ 
+ # install the app icon
+ install(FILES
