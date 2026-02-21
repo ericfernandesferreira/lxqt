@@ -39,6 +39,7 @@ LXQTROOT=$(pwd)
 
 # Loop for all dependency packages
 for dir in \
+  base/dmz-cursor-theme \
   base/lxqt-build-tools \
   base/libqtxdg \
   base/qtxdg-tools \
