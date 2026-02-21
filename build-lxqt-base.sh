@@ -73,6 +73,9 @@ for dir in \
   base/lxqt-wayland-session \
   base/screengrab \
   base/featherpad \
+  base/python-distutils-extra \
+  base/gnome-menus \
+  base/menulibre \
   base/kvantum \
   ; do
   # Get the package name
