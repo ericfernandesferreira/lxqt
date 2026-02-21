@@ -40,6 +40,7 @@ LXQTROOT=$(pwd)
 # Loop for all dependency packages
 for dir in \
   openbox/libconfig \
+  openbox/uthash \
   openbox/picom \
   openbox/openbox \
   openbox/obconf-qt \
@@ -48,7 +49,7 @@ for dir in \
   openbox/tela-circle-icon-theme \
   openbox/zafiro-icon-theme \
   openbox/papirus-icon-theme \
-  openbox/nordic-theme \w
+  openbox/nordic-theme \
   openbox/lxqt-less-theme \
   ; do
   # Get the package name
