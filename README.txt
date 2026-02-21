@@ -11,11 +11,13 @@ Conteúdo:
 - lximage-qt
 - lxqt-archiver
 - lxqt-sudo
+- menulibre
 - pavucontrol-qt
 - pcmanfm-qt
 - qps
 - qterminal
 - screengrab
+- cursor themes (dmz-white)
 - icons themes (papirus,tela-circle,zafiro)
 - openbox themes (arc and nordic)
 - lxqt themes (less)
@@ -48,11 +50,13 @@ Content:
 - lximage-qt
 - lxqt-archiver
 - lxqt-sudo
+- menulibre
 - pavucontrol-qt
 - pcmanfm-qt
 - qps
 - qterminal
 - screengrab
+- cursor themes (dmz-white)
 - icons themes (papirus,tela-circle,zafiro)
 - openbox themes (arc and nordic)
 - lxqt themes (less)
