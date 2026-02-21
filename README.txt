@@ -40,7 +40,7 @@ LXQT Source : https://github.com/lxqt
 
 Requirements:
 - slackware64 Current
-- pacote de audio : https://github.com/ericfernandesferreira/audio.git
+- audio package : https://github.com/ericfernandesferreira/audio.git
 
 Content:
 - featherpad
