@@ -22,7 +22,7 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
+# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal LXQt Project
 
 PRGNAM=gnome-menus
 VERSION=${VERSION:-3.38.1}
@@ -40,7 +40,7 @@ fi
 wget -c https://download.gnome.org/sources/gnome-menus/3.38/$PRGNAM-$VERSION.tar.xz
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp/xsb}
+TMP=${TMP:-/tmp/lxqt}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
