@@ -77,6 +77,8 @@ sed -i 's/theme=Clearlooks/theme=less/' lxqt.conf
 sed -i 's/icon_theme=breeze/icon_theme=Tela-circle-grey-dark/' lxqt.conf
 sed -i 's/style=Fusion/style=kvantum/' lxqt.conf
 sed -i 's/palette_override=true/palette_override=false/' lxqt.conf
+echo -e "\n[Mouse]\ncursor_theme=DMZ-White" >> lxqt.conf
+
 cd -
 
 mkdir -p build
