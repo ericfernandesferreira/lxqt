@@ -24,7 +24,7 @@
 
 PRGNAM=kvantum
 SRCNAM=Kvantum
-VERSION=${VERSION:-1.1.6}
+VERSION=${VERSION:-1.1.8}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_lxqt}
 

@@ -23,8 +23,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=python-distutils-extra
-SRCNAM=work
-VERSION=${VERSION:-3.3}
+VERSION=${VERSION:-3.4}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_lxqt}
 
@@ -36,7 +35,7 @@ if [ -z "$ARCH" ]; then
   esac
 fi
 
-wget -c https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/$PRGNAM/$VERSION/${PRGNAM}_${VERSION}.tar.xz
+wget -c http://archive.ubuntu.com/ubuntu/pool/universe/p/$PRGNAM/${PRGNAM}_${VERSION}.tar.xz
 
 CWD=$(pwd)
 TMP=${TMP:-/tmp/lxqt}
@@ -62,9 +61,9 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $SRCNAM
+rm -rf $PRGNAM
 tar xvf $CWD/${PRGNAM}_${VERSION}.tar.xz
-cd $SRCNAM
+cd $PRGNAM
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
