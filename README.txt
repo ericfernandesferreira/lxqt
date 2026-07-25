@@ -1,4 +1,4 @@
-Versão do LXQT : 2.3.0
+Versão do LXQT : 2.4.0
 Source do LXQT : https://github.com/lxqt
 
 Requerimentos:
@@ -37,7 +37,7 @@ sh build-lxqt-openbox.sh ou build-lxqt-kwin.sh
 
 ---------------------------------------------------------------------------
 
-LXQT Version : 2.3.0
+LXQT Version : 2.4.0
 LXQT Source : https://github.com/lxqt
 
 Requirements:
