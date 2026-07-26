@@ -46,7 +46,6 @@ for dir in \
   openbox/obconf-qt \
   openbox/nordic-openbox \
   openbox/arc-openbox \
-  openbox/tela-circle-icon-theme \
   openbox/zafiro-icon-theme \
   openbox/papirus-icon-theme \
   openbox/nordic-theme \
